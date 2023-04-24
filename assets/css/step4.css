@@ -1,0 +1,48 @@
+/* layout css */
+
+
+
+.container {
+    max-width: 933px;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px 90px 20px 20px;
+    height: 530;
+}
+
+
+
+h1 {
+    padding: 24px 0px 0px 9px;
+    font-size: xx-large;
+}
+
+h5 {
+    color: var(--Cool-gray);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+.active {
+    background-color: var(--Light-blue);
+    color: black;
+    border-color: var(--Light-blue);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content p {
+    text-align: center;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+}

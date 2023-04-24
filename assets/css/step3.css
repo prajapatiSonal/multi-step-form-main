@@ -1,0 +1,64 @@
+/* layout css */
+
+h1 {
+  padding: 24px 0px 0px 9px;
+  font-size: xx-large;
+}
+
+h5 {
+  color: var(--Cool-gray);
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.yearly {
+  padding: 10px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  background-color: hsl(230deg 75% 98.43%);
+}
+
+.card {
+  border: 1px solid var(--Purplish-blue);
+  padding: 15px 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: hsl(230deg 75% 98.43%);
+  display: flex;
+}
+
+.card:hover {
+  border-color: var(--Purplish-blue);
+  cursor: pointer;
+}
+
+.card h4 {
+  font-size: 15px;
+  font-weight: 500;
+  padding-top: 8px;
+  color: var(--Cool-gray);
+}
+
+.border-active {
+  border-color: var(--Purplish-blue) !important;
+}
+
+.btn:hover {
+  background-color: var(--White);
+  color: var(--primary);
+}
+.btn-section {
+  padding-top: 50px;
+}
+a {
+  text-decoration: none;
+}
+.price {
+  color: hsl(243.87deg 41.7% 56.27%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pd-20x {
+  /* padding: 0px 20px */
+}

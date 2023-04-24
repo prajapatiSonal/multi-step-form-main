@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Multi-step form</title>
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/step2.css" />
+  </head>
+
+  <body>
+    <section class="d-flex justify-center align-center bg-gray h-100">
+      <div class="container">
+        <div class="border-radius-50x div-separator">
+          <!-- Sidebar start -->
+          <aside class="sidebar">
+            <div class="d-flex pd-15">
+              <div class="number-circle">1</div>
+              <div class="pl-13">
+                <div class="sidebar-title">Step 1</div>
+                <div class="color-white fw-500 step-detail">Your info</div>
+              </div>
+            </div>
+            <div class="d-flex pd-15">
+              <div class="number-circle active">2</div>
+              <div class="pl-13">
+                <div class="sidebar-title">Step 2</div>
+                <div class="color-white fw-500 step-detail">Select plan</div>
+              </div>
+            </div>
+
+            <div class="d-flex pd-15">
+              <div class="number-circle">3</div>
+              <div class="pl-13">
+                <div class="sidebar-title">Step 3</div>
+                <div class="color-white fw-500 step-detail">Add-ons</div>
+              </div>
+            </div>
+            <div class="d-flex pd-15">
+              <div class="number-circle">4</div>
+              <div class="pl-13">
+                <div class="sidebar-title">Step 4</div>
+                <div class="color-white fw-500 step-detail">Summary</div>
+              </div>
+            </div>
+          </aside>
+          <!-- Sidebar end -->
+
+          <main class="ml-80 h-100">
+            <!-- Step 1 start -->
+            <div class="d-flex flex-column flex-grow">
+              <h1 class="pd-10">Select your plan</h1>
+              <h5 class="pd-10">
+                You have the option of monthly or yearly billing.
+              </h5>
+
+              <!-- Step 1 start -->
+              <div class="d-flex flex-column flex-grow m-20y">
+                <div class="d-flex justify-center flex-grow flex-wrap">
+                  <div class="card border-active">
+                    <figure>
+                      <img
+                        class="pt-5"
+                        src="./assets/images/icon-arcade.svg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="pt-35">
+                      <div class="color-primary fs-16x fw-700">Arcade</div>
+                      <span class="monthly"> $9/mo </span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img
+                        class="pt-5"
+                        src="./assets/images/icon-advanced.svg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="pt-35">
+                      <div class="color-primary fs-16x fw-700">Advanced</div>
+                      <span class="monthly"> $12/mo</span>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <figure>
+                      <img
+                        class="pt-5"
+                        src="./assets/images/icon-pro.svg"
+                        alt=""
+                      />
+                    </figure>
+                    <div class="pt-35">
+                      <div class="color-primary fs-16x fw-700">Pro</div>
+                      <span class="monthly">$15/mo</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="d-flex bg-gray yearly">
+                  <h3>Monthly</h3>
+                  <label class="switch">
+                    <input type="checkbox" />
+                    <span class="slider round"></span>
+                  </label>
+                  <h3>Yearly</h3>
+                </div>
+              </div>
+
+              <div class="d-flex justify-content-between">
+                <!-- <button class="btn"> Go Back </button> -->
+                <a class="btn color-gray" href="./step1.html"> Go Back </a>
+                <!-- <button class="btn btn-primary"> Next Step </button> -->
+                <a class="btn btn-primary" href="./step3.html"> Next Step</a>
+              </div>
+            </div>
+          </main>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
